@@ -1,0 +1,73 @@
+* {
+    /* my font famuly from google fonts */
+    font-family: "Syne", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(204, 198, 198);
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* hide my all sections */
+.section {
+    display: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.active {
+    display: block;
+    /* Class for visible sections */
+}
+
+
+/* my responsiveness */
+@media (max-width:840px) {
+    .menu li {
+        display: block;
+        margin-top: 1.5vw;
+    }
+}

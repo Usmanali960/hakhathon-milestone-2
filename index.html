@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Resume</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Usman ali Resume</h1>
+
+        <!-- our all section buttons -->
+        <ul class="menu">
+            <li><button onclick="showSection('personal')">Personal Information</button></li>
+            <li><button onclick="showSection('skills')">Skills</button></li>
+            <li><button onclick="showSection('education')">Education</button></li>
+            <li><button onclick="showSection('experience')">Work Experience</button></li>
+        </ul>
+
+        <!-- my personal information -->
+        <div id="personal" class="section">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Usman ali</p>
+            <p><strong>Email:</strong> wazeer9600@gmail.com</p>
+            <p><strong>Phone:</strong> 0319-4055904</p>
+            <p><strong>Address:</strong> Pakistan karachi </p>
+        </div>
+
+        <!-- my skills -->
+        <div id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+
+        <!-- my education -->
+        <div id="education" class="section">
+            <h2>Education</h2>
+            <p><strong>Bachelor's Degree in Computer Science</strong></p>
+            <p>XYZ University, 2015-2019</p>
+        </div>
+
+        <!-- my experiencs -->
+        <div id="experience" class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Software Developer</strong></p>
+            <p>ABC Tech, 2020-present</p>
+            <p>Responsible for developing web applications using modern JavaScript frameworks.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
